@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import Pradee from '../../Assest/Pradee.jpg'
-import{BsAwardFill}from'react-icons/bs'
+
 function About() {
   return (
     <section id='about'>

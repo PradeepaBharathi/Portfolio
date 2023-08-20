@@ -1,7 +1,7 @@
 import React,{useRef} from 'react'
 import './Contact.css'
 import { HiOutlineMail } from 'react-icons/hi'
-import { FaLinkedinIn, FaInstagram } from 'react-icons/fa'
+import { FaLinkedinIn } from 'react-icons/fa'
 import emailjs from '@emailjs/browser'
 function Contact() {
 const form = useRef();
