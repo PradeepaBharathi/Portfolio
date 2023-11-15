@@ -1,5 +1,5 @@
 import React from 'react'
-import FinalCV from '../../Assest/Final_CV_Pradeepa'
+import FinalCV from '../../Assest/Final_CV_Pradeepa.pdf'
 function CTA() {
   return (
       <div className='cta'>
