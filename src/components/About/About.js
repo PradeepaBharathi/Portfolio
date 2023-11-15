@@ -24,7 +24,7 @@ function About() {
             
           
 
-             <p> More of intrested in full stack development with good profeciency in Javascript, HTML,CSS, React, MongoDb,Express</p>
+             <p> Full stack developer with good profeciency in Javascript, HTML,CSS, React, MongoDb,Express</p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
