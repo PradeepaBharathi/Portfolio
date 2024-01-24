@@ -28,7 +28,7 @@ function Footer() {
 
       <div className="footer__socials">
        
-        <a href="https://github.com/PradeepaBharathi/">
+        <a href="https://github.com/PradeepaBharathi/" target='blank'>
           <FaGithub />
         </a>
         <a href="https://mail.google.com/">

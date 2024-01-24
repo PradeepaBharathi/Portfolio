@@ -3,6 +3,8 @@ import './Portfolio.css'
 import blog from '../../Assest/blog.PNG'
 import studenteacherportal from '../../Assest/studentteacherportal.PNG'
 import moneymanager from '../../Assest/moneymanager.PNG'
+import notes from "../../Assest/Notes.PNG"
+import chatty from "../../Assest/chatty.PNG"
 function Portfolio() {
   return (
     <section id="portfolio">
@@ -15,7 +17,7 @@ function Portfolio() {
             <img src={blog} alt="" />
           </div>
           <h3>Blogger</h3>
-          <h5>A Simple App to express your thoughts as Blogd</h5>
+          <h5>A Simple App to express your thoughts as Blog</h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/PradeepaBharathi/Blogger_Frontend.git"
@@ -23,7 +25,15 @@ function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              Frontend
+            </a>
+            <a
+              href="https://github.com/PradeepaBharathi/Blogger_backend.git"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Backend
             </a>
             <a
               href="https://bloggerfrontend.netlify.app//"
@@ -35,31 +45,7 @@ function Portfolio() {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={studenteacherportal} alt="" />
-          </div>
-          <h3>Student Teacher Portal</h3>
-          <h5> CRUD application to manage the student teacher portal</h5>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/PradeepaBharathi/stud-mentor.git"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="https://harmonious-croquembouche-e18fbe.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
+        
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={moneymanager} alt="" />
@@ -77,10 +63,92 @@ function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              Frontend
+            </a>
+            <a
+              href="https://github.com/PradeepaBharathi/Money-Manager.git"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Backend
             </a>
             <a
               href="https://soft-sunflower-1bc180.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={notes} alt="" />
+          </div>
+          <h3>Memorandum</h3>
+          <h5>
+            {" "}
+            App to note all the activities of an individual. Implemented Theme
+            functionality and JWT Authorization
+          </h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/PradeepaBharathi/notes_frontend.git"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Frontend
+            </a>
+            <a
+              href="https://github.com/PradeepaBharathi/backend_notes.git"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Backend
+            </a>
+            <a
+              href="https://note-frontend.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={chatty} alt="" />
+          </div>
+          <h3>Chatty</h3>
+          <h5>
+            {" "}
+            Full Stack App for end to end conversation. Built using
+            React,MongoDb and SockeIo
+          </h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/PradeepaBharathi/chat-frontend.git"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Frontend
+            </a>
+            <a
+              href="https://github.com/PradeepaBharathi/backend_chat.git"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Backend
+            </a>
+            <a
+              href="https://euphonious-gaufre-267176.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
