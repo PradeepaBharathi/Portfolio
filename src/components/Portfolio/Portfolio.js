@@ -4,7 +4,7 @@ import blog from '../../Assest/blog.PNG'
 import studenteacherportal from '../../Assest/studentteacherportal.PNG'
 import moneymanager from '../../Assest/moneymanager.PNG'
 import notes from "../../Assest/Notes.PNG"
-import chatty from "../../Assest/chatty.PNG"
+import chatty from "../../Assest/chatterbox.PNG"
 function Portfolio() {
   return (
     <section id="portfolio">
@@ -45,7 +45,7 @@ function Portfolio() {
             </a>
           </div>
         </article>
-        
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={moneymanager} alt="" />
@@ -132,7 +132,7 @@ function Portfolio() {
           </h5>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/PradeepaBharathi/chat-frontend.git"
+              href="https://github.com/PradeepaBharathi/chatterbox-frontend.git"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -140,7 +140,7 @@ function Portfolio() {
               Frontend
             </a>
             <a
-              href="https://github.com/PradeepaBharathi/backend_chat.git"
+              href="https://github.com/PradeepaBharathi/chatterbox-backend.git"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -148,7 +148,7 @@ function Portfolio() {
               Backend
             </a>
             <a
-              href="https://euphonious-gaufre-267176.netlify.app/"
+              href="https://chatboxfr.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
